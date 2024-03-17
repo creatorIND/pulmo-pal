@@ -1,0 +1,14 @@
+{
+	"name": "pulmo-pal",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"start": "npx concurrently \"cd server && npm start\" \"cd client && npm run dev\"",
+		"install-all": "cd client && npm install && cd ../server && npm install"
+	},
+	"author": "Sujal Sinha",
+	"license": "ISC",
+	"devDependencies": {
+		"concurrently": "^8.2.2"
+	}
+}
